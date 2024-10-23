@@ -11,5 +11,5 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/about', function () {
-    return view('Tentang Que');
+    return view('about');
 });
